@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 nav{
-    height: 50px;
+    height: 45px;
     display: flex;
+    border: 0.5px solid black;
 
 }
 .logo{
