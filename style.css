@@ -1,1 +1,8 @@
+nav{
+    height: 50px;
+    display: flex;
 
+}
+.logo{
+    color: black;
+}
