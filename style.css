@@ -1,10 +1,14 @@
-*{
+.cart {
+    background-image: url("https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png");
+}
+
+* {
     margin: 0px;
-   
+
     padding: 0px;
 }
 
-nav{
+nav {
     height: 45px;
     display: flex;
     border: 0.5px solid black;
@@ -12,9 +16,8 @@ nav{
     align-items: center;
     justify-content: space-between;
 
-    
+
 
 
 }
-.logo{}
-  
+
