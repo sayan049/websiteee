@@ -21,16 +21,17 @@ nav {
     
     height: 45px;
     display: flex;
-    border: 0.5px solid black;
+    border: 0.5px solid darkgrey ;
     flex-direction: row;
     align-items: center;
     /* justify-content: space-between;} */}
 #searchInput{
     height: 30px;
     width: 300px;
-    border: 1px solid black;
+    border: 1px solid black ;
     border-radius: 5px;
-   
+   padding-left: 5px;
+   background-color: #eee;
 }
 .searchInHeader{
     padding-left: 50px;
@@ -39,11 +40,24 @@ nav {
     padding-left: 250px;
 }
 .language{
-    padding-left: 101.6px;
+    padding-left: 59.6px;
+}
+.topBar{
+    height: 15px;
+    border: 0ch;
+    background-color: #eee;
+
+}
+.primaryFilter{
+height: 50px;
 }
 
-
-
  .cart {
-     padding-left: 183px;
+     padding-left: 315px;
+ }
+ .login{
+    padding-left: 56px;
+ }
+ .btnSubmit{
+    margin-left: 05px;
  }
