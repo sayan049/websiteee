@@ -8,9 +8,13 @@ nav{
     height: 45px;
     display: flex;
     border: 0.5px solid black;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
     
 
+
 }
-.logo{
-    color:black;
-}
+.logo{}
+  
