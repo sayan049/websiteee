@@ -21,7 +21,7 @@ nav {
     
     height: 45px;
     display: flex;
-    border: 0.5px solid darkgrey;
+    border: 0.5px solid black;
     flex-direction: row;
     align-items: center;
     /* justify-content: space-between;} */}
@@ -46,17 +46,4 @@ nav {
 
  .cart {
      padding-left: 183px;
- }
- .login{
-    padding-left: 50px;
-
- }
- .topBar{
-    height: 15px;
-    border: 0ch;
-    background-color: #eee;;
- }
- .div1{
-    height: 50px;
-    
  }
