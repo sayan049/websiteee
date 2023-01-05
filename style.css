@@ -39,15 +39,16 @@
      /* flex-wrap: wrap; */
      justify-content: space-between;}
      .logo {position: relative;
-      left: 5%;
+      left: 10%;
     }
 
  #searchInput {
+    position: relative;
      height: 30px;
      width: 300px;
      border: 1px solid black;
      border-radius: 5px;
-     padding-left: 5px;
+     left: 5%;
      background-color: #eee;
  }
 
