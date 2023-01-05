@@ -1,13 +1,14 @@
 *{
-    margin: 20px;
-    margin-top: 50px;
-    padding: 20px;
+    margin: 0px;
+   
+    padding: 0px;
 }
 
 nav{
     height: 45px;
     display: flex;
     border: 0.5px solid black;
+    
 
 }
 .logo{
