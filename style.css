@@ -21,7 +21,7 @@ nav {
     
     height: 45px;
     display: flex;
-    border: 0.5px solid black;
+    border: 0.5px solid darkgray;
     flex-direction: row;
     align-items: center;
     /* justify-content: space-between;} */}
@@ -46,4 +46,7 @@ nav {
 
  .cart {
      padding-left: 183px;
+ }
+ .topBar{
+    height: 18px;
  }
