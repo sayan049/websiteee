@@ -20,7 +20,7 @@ nav {
     
     height: 45px;
     display: flex;
-    border: 0.5px solid black;
+    border: 0.1px solid darkgray;
     flex-direction: row;
     align-items: center;
     /* justify-content: space-between;} */}
@@ -40,8 +40,15 @@ nav {
 .language{
     padding-left: 497.6px;
 }
-
-
+.topBar{
+    height: 18px;
+    border: 0px solid;
+ 
+}
+.div1{
+    height: 50px;
+  border: 0.1px darkgray;
+}
 
 
 
