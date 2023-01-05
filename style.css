@@ -9,15 +9,33 @@
 }
 
 nav {
+    /* width: 100vw; */
     height: 45px;
     display: flex;
     border: 0.5px solid black;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-
-
-
-
+    /* justify-content: space-between;} */}
+#searchInput{
+    height: 30px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+   
 }
+.searchInHeader{
+    padding-left: 50px;
+}
+.logo{
+    padding-left: 250px;
+}
+.language{
+    padding-left: 497.6px;
+}
+
+
+
+
+
+
 
