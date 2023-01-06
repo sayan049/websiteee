@@ -3,7 +3,7 @@
     width: 100%;
     position:static;
     box-sizing: border-box;
-     height: 15px;
+     height: 18px;
      border: 0vh;
     
      background-color: #eee;
@@ -32,7 +32,7 @@
      height: 45px;
      width: 100%;
      display: flex;
-     border: 0.5px solid darkgrey;
+     border-bottom: 0.5px solid darkgrey;
      flex-direction: row;
      align-items: center;
      position: static;
@@ -64,9 +64,7 @@
 
 
 
- .primaryFilter {
-     height: 50px;
- }
+ 
 
  .cart {
      padding-left: 315px;
@@ -79,3 +77,93 @@
  .btnSubmit {
      margin-left: 05px;
  }
+ .primaryFilter {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .man{
+    display: inline-block;
+    position: relative;
+    left: 35%;
+  cursor: pointer;
+   
+ }
+ .manDropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  .manDropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .manDropdown a:hover {background-color: #ddd;}
+
+.man:hover .manDropdown {display: block;}
+/* .man:hover .manBtn{
+    background-color: rgb(0, 0, 0);
+    color: #ddd;
+} */
+.woman{
+    display: inline-block;
+    position: relative;
+    left: -3%;
+  cursor: pointer;
+   
+ }
+ .womanDropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  .womanDropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .womanDropdown a:hover {background-color: #ddd;}
+
+.woman:hover .womanDropdown {display: block;}
+.kid{
+    display: inline-block;
+    position: relative;
+    left: -40%;
+  cursor: pointer;
+   
+ }
+ .kidDropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  .kidDropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .kidDropdown a:hover {background-color: #ddd;}
+
+.kid:hover .kidDropdown {display: block;}
+
+ 
