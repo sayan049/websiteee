@@ -1,14 +1,22 @@
- 
-  .topBar {
-    width: 100%;
-    position:static;
-    box-sizing: border-box;
+ .topBar {
+     width: 100%;
+     position: static;
+     box-sizing: border-box;
      height: 15px;
      border: 0vh;
-    
+
      background-color: #eee;
-     
- }.cart {
+
+ }
+ body {
+  width: 100%;
+    font-family: montserrat,sans-serif;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+  }
+
+ .cart {
      display: inline-block;
 
      height: 40px;
@@ -37,45 +45,86 @@
      align-items: center;
      position: static;
      /* flex-wrap: wrap; */
-     justify-content: space-between;}
-     .logo {position: relative;
-      left: 10%;
-    }
+     justify-content: space-between;
+ }
+
+ .logo {
+    position: relative;
+    left: 15%;
+    
+ }
 
  #searchInput {
     position: relative;
-     height: 30px;
-     width: 300px;
-     border: 1px solid black;
-     border-radius: 5px;
-     left: 5%;
-     background-color: #eee;
+height: 30px;
+width: 300px;
+border: 0px solid grey;
+border-radius: 5px;
+left: 153%;
+background-color: #eee;padding: 5px;
+padding: 2px;
+
  }
 
  .searchInHeader {
-     padding-left: 50px;
+    
+position: relative;
+left: 20%;
+border: 0px;
  }
 
- 
+
 
  .language {
-     padding-left: 59.6px;
+    position: relative;
+left: -16%;
  }
 
 
 
- .primaryFilter {
+ /* .primaryFilter {
      height: 50px;
- }
+ } */
 
  .cart {
-     padding-left: 315px;
+    position: relative;
+    left: -5%;
  }
 
  .login {
-     padding-left: 56px;
+    position: relative;
+    left: 6%;
  }
 
  .btnSubmit {
-     margin-left: 05px;
- }
+    position: relative;
+left: 15.5%;
+padding-top: 6px;
+
+  }/*
+ .icon-addon::before {
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+  }
+  .icon-addon::after {
+
+    clear: both;
+    display: table;
+content: " ";
+box-sizing: border-box;
+
+}
+.search-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('search-icon.png') center center no-repeat;
+} */
+/* .form{
+  display: inline;
+  position: relative;
+left: 20%;
+
+}
+   */
