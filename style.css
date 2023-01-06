@@ -1,9 +1,12 @@
+
+ 
+ 
  .topBar {
-   width: 100%;
-   position: static;
-   box-sizing: border-box;
-   height: 15px;
-   border: 0vh;
+     width: 100%;
+     position: static;
+     box-sizing: border-box;
+     height: 15px;
+     border: 0vh;
 
    background-color: #eee;
 
@@ -16,15 +19,12 @@
    text-rendering: optimizeLegibility;
    overflow: hidden;
  }
-
  .cart {
-   display: inline-block;
+  position: relative;
+  left: -5%;
+}
 
-   height: 40px;
-   width: 40px;
-   object-fit: contain;
-   padding-top: 12px;
- }
+ 
 
  * {
    margin: 0px;
@@ -32,21 +32,19 @@
    padding: 0px;
  }
 
- .cartText {
-   display: inline-block;
- }
+ 
 
  nav {
 
-   height: 45px;
-   width: 100%;
-   display: flex;
-   border: 0.5px solid darkgrey;
-   flex-direction: row;
-   align-items: center;
-   position: static;
-   /* flex-wrap: wrap; */
-   justify-content: space-between;
+     height: 45px;
+     width: 100%;
+     display: flex;
+     border: 0.5px solid darkgrey;
+     flex-direction: row;
+     align-items: center;
+     position: static;
+     /* flex-wrap: wrap; */
+     justify-content: space-between;
  }
 
  .logo {
@@ -84,51 +82,111 @@
 
 
 
+
  .primaryFilter {
      height: 50px;
- }
+ } 
 
- .cart {
-   position: relative;
-   left: -5%;
- }
+ 
 
- .login {
-   position: relative;
-   left: 6%;
+ .login{
+  position: relative;
+  left: 5%;
+  
  }
 
  .btnSubmit {
-   position: relative;
-   left: 15.5%;
-   padding-top: 6px;
+    position: relative;
+left: 15.5%;
+padding-top: 6px;
 
- }
-
- /*
- .icon-addon::before {
-    display: table;
-    content: " ";
-    box-sizing: border-box;
   }
-  .icon-addon::after {
-
-    clear: both;
-    display: table;
-content: " ";
-box-sizing: border-box;
-
+  .primaryFilter {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.search-icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: url('search-icon.png') center center no-repeat;
+ .man{
+    display: inline-block;
+    position: relative;
+    left: 35%;
+  cursor: pointer;
+   
+ }
+ .manDropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  .manDropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .manDropdown a:hover {background-color: #ddd;}
+
+.man:hover .manDropdown {display: block;}
+/* .man:hover .manBtn{
+    background-color: rgb(0, 0, 0);
+    color: #ddd;
 } */
- /* .form{
-  display: inline;
-  position: relative;
-left: 20%;
+.woman{
+    display: inline-block;
+    position: relative;
+    left: -3%;
+  cursor: pointer;
+   
+ }
+ .womanDropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  .womanDropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .womanDropdown a:hover {background-color: #ddd;}
 
-}
-   */
+.woman:hover .womanDropdown {display: block;}
+.kid{
+    display: inline-block;
+    position: relative;
+    left: -40%;
+  cursor: pointer;
+   
+ }
+ .kidDropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  .kidDropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .kidDropdown a:hover {background-color: #ddd;}
+
+.kid:hover .kidDropdown {display: block;}
+
