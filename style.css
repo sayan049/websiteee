@@ -9,6 +9,7 @@
      border: 0vh;
 
    background-color: #eee;
+  
 
  }
 
@@ -22,6 +23,8 @@
  .cart {
   position: relative;
   left: -5%;
+  white-space: nowrap;
+  min-width: 25px;
 }
 
  
@@ -39,7 +42,7 @@
      height: 45px;
      width: 100%;
      display: flex;
-     border: 0.5px solid darkgrey;
+     border-bottom : 0.5px solid darkgrey;
      flex-direction: row;
      align-items: center;
      position: static;
@@ -48,36 +51,43 @@
  }
 
  .logo {
+  display: inline-block;
    position: relative;
    left: 15%;
 
  }
 
  #searchInput {
-   position: relative;
-   height: 30px;
-   width: 300px;
-   border: 0px solid grey;
-   border-radius: 5px;
-   left: 153%;
-   background-color: #eee;
-   padding: 5px;
-   padding: 2px;
-
+  display:inline-block;
+  position: relative;
+  height: 30px;
+  width: 278px;
+  border: 0px solid grey;
+  border-radius: 5px;
+  left: 164%;
+  background-color: #eee;
+  padding: 5px;
+  padding: 3px;
+  white-space: nowrap;
  }
 
  .searchInHeader {
+  display:inline-block;
 
    position: relative;
    left: 20%;
    border: 0px;
+   white-space: nowrap;
  }
 
 
 
  .language {
+  display: inline-block;
    position: relative;
    left: -16%;
+   white-space: nowrap;
+min-width: 60px;
  }
 
 
@@ -90,15 +100,19 @@
  
 
  .login{
+  display: inline-block;
   position: relative;
   left: 5%;
+  white-space: nowrap;
   
  }
 
  .btnSubmit {
+  display: inline-block;
     position: relative;
 left: 15.5%;
 padding-top: 6px;
+white-space: nowrap;
 
   }
   .primaryFilter {
