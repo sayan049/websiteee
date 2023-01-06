@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME PAGE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
 </head>
 
 <body>
     <header>
         <nav class="topBar"></nav>
         <nav>
+
             <div class="logo">logo</div>
             <form class="searchInHeader">
                 <input type="text" placeholder="Search by product, category or collection..." id="searchInput">
@@ -21,8 +24,26 @@
                     srcset=""></button>
 
             <div class="login">login</div>
+
+            <div class="logo">Logo</div>
+
+            <!-- <form action="" class="searchInHeader">
+                <input type="text" placeholder="product, catyegory or collection..." id="searchInput">
+                <button type="submit"><i class="fas fa-search"></i></button> </form> -->
+            <form class="form"><input type="text" placeholder="Search by product, collection or category"
+                    id="searchInput"></form><div class="btnSubmit" type="submit" onclick="search()"><i class="fas fa-search" style="font-size: 17px;" ></i></div>
+
+
+
+            <div class="login">Sign in/Sign up</div>
+
             <div class="cart"><img src="images/cart.png" height="25px" alt=""></div>
-            <div class="language">language</div>
+            <div class="language"> <select id="language-dropdown">
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <option value="es">Spanish</option>
+                </select></div>
         </nav>
 
     </header>
