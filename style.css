@@ -1,107 +1,111 @@
  .topBar {
-     width: 100%;
-     position: static;
-     box-sizing: border-box;
-     height: 15px;
-     border: 0vh;
+   width: 100%;
+   position: static;
+   box-sizing: border-box;
+   height: 15px;
+   border: 0vh;
 
-     background-color: #eee;
+   background-color: #eee;
 
  }
+
  body {
-  width: 100%;
-    font-family: montserrat,sans-serif;
-    font-size: 14px;
-    text-rendering: optimizeLegibility;
-    overflow: hidden;
-  }
+   width: 100%;
+   font-family: montserrat, sans-serif;
+   font-size: 14px;
+   text-rendering: optimizeLegibility;
+   overflow: hidden;
+ }
 
  .cart {
-     display: inline-block;
+   display: inline-block;
 
-     height: 40px;
-     width: 40px;
-     object-fit: contain;
-     padding-top: 12px;
+   height: 40px;
+   width: 40px;
+   object-fit: contain;
+   padding-top: 12px;
  }
 
  * {
-     margin: 0px;
+   margin: 0px;
 
-     padding: 0px;
+   padding: 0px;
  }
 
  .cartText {
-     display: inline-block;
+   display: inline-block;
  }
 
  nav {
 
-     height: 45px;
-     width: 100%;
-     display: flex;
-     border: 0.5px solid darkgrey;
-     flex-direction: row;
-     align-items: center;
-     position: static;
-     /* flex-wrap: wrap; */
-     justify-content: space-between;
+   height: 45px;
+   width: 100%;
+   display: flex;
+   border: 0.5px solid darkgrey;
+   flex-direction: row;
+   align-items: center;
+   position: static;
+   /* flex-wrap: wrap; */
+   justify-content: space-between;
  }
 
  .logo {
-    position: relative;
-    left: 15%;
-    
+   position: relative;
+   left: 15%;
+
  }
 
  #searchInput {
-    position: relative;
-height: 30px;
-width: 300px;
-border: 0px solid grey;
-border-radius: 5px;
-left: 153%;
-background-color: #eee;padding: 5px;
-padding: 2px;
+   position: relative;
+   height: 30px;
+   width: 300px;
+   border: 0px solid grey;
+   border-radius: 5px;
+   left: 153%;
+   background-color: #eee;
+   padding: 5px;
+   padding: 2px;
 
  }
 
  .searchInHeader {
-    
-position: relative;
-left: 20%;
-border: 0px;
+
+   position: relative;
+   left: 20%;
+   border: 0px;
  }
 
 
 
  .language {
-    position: relative;
-left: -16%;
+   position: relative;
+   left: -16%;
  }
 
 
 
- /* .primaryFilter {
+ .primaryFilter {
      height: 50px;
- } */
+ }
 
  .cart {
-    position: relative;
-    left: -5%;
+   position: relative;
+   left: -5%;
  }
 
  .login {
-    position: relative;
-    left: 6%;
+   position: relative;
+   left: 6%;
  }
 
  .btnSubmit {
-    position: relative;
-left: 15.5%;
-padding-top: 6px;
+   position: relative;
+   left: 15.5%;
+   padding-top: 6px;
 
-  }/*
+ }
+
+ /*
  .icon-addon::before {
     display: table;
     content: " ";
@@ -121,7 +125,7 @@ box-sizing: border-box;
   height: 16px;
   background: url('search-icon.png') center center no-repeat;
 } */
-/* .form{
+ /* .form{
   display: inline;
   position: relative;
 left: 20%;
